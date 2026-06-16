@@ -11,56 +11,22 @@
 
   <div id="case">
    <hr>
-   <h3 id="c1">Colaboração com Pesquisador da NASA</h3>
-<p>(<i>por Andre Pereira, Pedro Lopes e Ricardo Leiderman</i>)
+   <h3 id="c1">..</h3>
+<p>(<i>por Silvia Corbani</i>)
 </p><p>
-Em agosto de 2021, recebemos uma mensagem via e-mail de um pesquisador identificado como "a researcher in the Computational Physics branch of NASA Ames Research Center", o Federico Semeraro. Nessa mensagem, ele nos consultou com dúvidas acerca do uso do programa desenvolvido pelo nosso grupo para computar a permeabilidade absoluta de meios porosos caracterizados por imagens bidimensionais, que foi publicado junto com um artigo do nosso grupo [1]. Nessa mensagem, ele perguntou se nós possuíamos uma versão 3D do programa e se poderíamos compartilhar com eles, finalizando o texto com "I would greatly appreciate your help and I will be sure to reciprocate in the future". 
-</p><p>
-O Federico é um dos principais desenvolvedores do "Porous Microstructure Analysis (PuMA) software", um programa da NASA voltado para a análise e caracterização computacional de meios porosos.
-</p><p>
-Respondemos agradecendo pelo retorno e sugerimos combinar uma conversa para entendermos melhor as necessidades deles. No início de setembro de 2021 fizemos a nossa primeira reunião, com a participação de 3 pesquisadores da UFF e 3 membros do time PuMA, entre pesquisadores e consultores da NASA.
-</p><p>
-Como estabelecer colaboração ou parceria com grupos de pesquisa da NASA? Entendemos que tínhamos 3 opções: 1) não compartilhar nossos recursos com eles; 2) estabelecer condições para o compartilhamento dos nossos recursos; ou 3) encontrar uma alternativa em que ambos os lados compartilhassem seus recursos, de forma que todos os envolvidos fossem beneficiados desses compartilhamentos. Concordamos em seguir com a terceira opção. Enxergamos que o primeiro passo de qualquer colaboração seria desenvolver um trabalho em conjunto e que prioritariamente gerasse uma publicação de qualidade e de grande impacto.
-</p><p>
-Decidimos então compartilhar uma versão preliminar do programa para simulações em 3D, mas logo eles perceberam que era limitada. Esta empregava um solver direto, que atingia o limite da memória do computador muito rápido.
-</p><p>
-Eles têm interesse em simular problemas que demandam a resolução de sistemas lineares com mais de 1 bilhão de equações. Problemas que os próprios pesquisadores da NASA não haviam conseguido solucionar computacionalmente de forma eficiente. Quando passíveis de solução, tais problemas normalmente demandam de infraestrutura com supercomputadores, e que ainda assim requerem, para uma simples simulação, um tempo de processamento que dura de vários dias a semanas.
-</p><p>
-À época, estávamos trabalhando também em uma primeira versão acelerada em GPU deste solver, seguindo uma abordagem massivamente paralela de implementação do Método dos Elementos Finitos "sem matriz", onde vislumbrávamos simular problemas de grande escala e de forma eficiente.
-</p><p>
-Fizemos um teste com uma imagem micro-tomográfica de um material desenvolvido pela própria NASA, para o qual não possuíamos os valores de permeabilidade medidos em laboratório de antemão. Este material, denominado FiberFormTM, é utilizado em aplicações aeroespaciais, mais especificamente em sistemas de proteção térmica. Obter uma solução computacional para esse problema foi um feito sem precedentes, pois além de utilizarmos computadores pessoais, o tempo de processamento foi da ordem de minutos. Os valores de permeabilidade que obtivemos com nossos solvers mostraram ótima concordância com os resultados experimentais reportados pelos testes de laboratório conduzidos por eles [2]. 
-</p><p>
-Entendemos que ganhamos a confiança e a partir daí começamos a trabalhar jutos na confecção de um artigo [3] que foi publicado no periódico Computational Materials Science. A colaboração foi fundamental pois pudemos demonstrar a capacidade dos nossos programas em resolver problemas sofisticados, que nunca haviam sido resolvidos anteriormente. 
-</p><p>
-Os métodos "sem matriz" desenvolvidos ao longo deste trabalho também foram implementados no PuMA [4], onde somos creditados pela contribuição.
-</p><p>
-Em 2022 o PUMA ganhou o prêmio de programa do ano da NASA. O Federico nos agradeceu pela colaboração e por termos enviado à NASA uma carta explicitando a importância do programa para o nosso grupo e para o meio acadêmico. O Federico entendeu que a nossa colaboração foi importante para conseguir essa premiação.
-</p><p>
-No segundo semestre de 2022, o Federico fez uma apresentação no ciclo de seminários do programa de pós, a convite do nosso grupo [5].
-</p><p>
-Estamos atualmente escrevendo juntos 3 artigos de revista, detalhando frentes de trabalho diferentes que partiram desta colaboração inicial.
-</p><p>
-A parceria possibilita combinar os nossos recursos com os deles. Desta forma, nossos solvers podem ser testados em suas placas gráficas dedicadas ao alto desempenho, como Nvidia A100. Assim como, podem ser verificados e validados em modelos de materiais reais desenvolvidos pela própria NASA.
-</p><p>
-Manter essa colaboração tem sido um fator de grande estimulo para o nosso grupo, pois percebemos que além de conseguirmos desenvolver soluções de grande utilidade, outros grupos de renome internacional têm interesse em nossas soluções computacionais para resolver problemas complexos e sofisticados.
+...
 </p><p>
 <b>REFERÊNCIAS</b>
 </p><p>
-[1] Vianna, R.; Cunha, A.; Azeredo, R.; Leiderman, R.; Pereira, A. Computing effective permeability of porous media with fem and micro-ct: An educational approach. Fluids 16, 5 (2020)
+[1] ...
 </p><p>
-[2] F. Panerai, J.D. White, T.J. Cochell, O.M. Schroeder, N.N. Mansour, M.J. Wright, A. Martin, Experimental measurements of the permeability of fibrous carbon at high-temperature, Int. J. Heat Mass Transfer 101 (2016) 267-273.
-</p><p>
-[3] Lopes, P. C.; Vianna, R. S.; Sapucaia, V. W.; Semeraro, F.; Leiderman, R.; Pereira, A. M. Simulation toolkit for digital material characterization of large image-based microstructures. Computational Materials Science 219 (2023), 112021.
-</p><p>
-[4] https://github.com/nasa/puma/blob/main/publications.md
-</p><p>
-[5] https://www.youtube.com/watch?v=xgEEtXUCFmE
+[5] https://ww...
 </p>
 
   </div>
   <hr>
   <div id="footer">
-   Last update: September 29, 2023 by Andre Pereira.
+   Last update: June 16, 2026 by Silvia Corbani.
   </div>
  </div>
 </body>
